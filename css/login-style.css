@@ -1,0 +1,166 @@
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+html,body{
+
+}
+.mc-cycle{
+	height: 100%;
+}
+.mc-image{background-repeat: no-repeat;background-color: white !important;background-size: cover;}
+.login-box{
+	max-width: 350px;
+	width: 90%;
+	margin: 0 170px 0 auto;
+	margin-top: 20vh;
+	z-index: 9999999;
+	box-shadow:0 0 5px rgba(0,0,0,0.4);
+	border-radius: 15px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.login-box a{
+	color: rgba(255, 255, 255, 0.84);
+	cursor: pointer;
+	font-size: 13px;
+}
+.login-box a:hover,.login-box a:focus{
+	color: rgba(255, 255, 255, 1);
+	text-decoration:none;
+}
+.login-box .logo{
+	width:100%;
+	height: 130px;
+	padding: 20px 10px 20px 10px;
+	background: rgba(19, 123, 179, 0.75);
+}
+.login-box .logo img{
+	height: 100%;
+	margin: 0 auto;
+	display: block;
+}
+.login-box .form{
+	width:100%;
+	padding: 10px 15px 15px 15px;
+	background: rgba(3, 57, 85, 0.57);
+}
+.login-box .user,.login-box .pass{
+	margin: 20px 0;
+	width: 100%;
+	position: relative;
+}
+.login-box .user:before,.login-box .pass:before{
+	font-family: fontAwesome;
+	position: absolute;
+	left: 10px;
+	font-size: 16px;
+	width: 23px;
+	top: 10px;
+	border-right: 1px solid rgba(0, 0, 0, 0.34);
+	padding-left: 2px;
+}
+.login-box .user:before{
+	content: "\f007";
+	color: #000;
+}
+.login-box .pass:before{
+	content: "\f084";
+	color: #000;
+}
+.login-box .form-control{
+	padding-left: 40px;
+}
+
+ #arrow_right {
+	bottom:30px;
+	height:50%;
+	position: fixed;
+	right:30px;
+	width:36px;
+	z-index:1000;
+}
+
+#arrow_left{
+	bottom:30px;
+	height:50%;
+	position: fixed;
+	float: left;
+	width:36px;
+	z-index:1000;
+}
+
+/*#arrow_left {
+	right:86px;
+}*/
+
+#arrow_left:hover, #arrow_right:hover {
+	bottom:29px;
+}
+#arrow_left:active, #arrow_right:active {
+	bottom:28px;
+}
+.blueskylogo{
+	position: fixed;
+	bottom: 25pt;
+	left: 25pt;
+}
+@media only screen and (max-width:745px){
+	
+	
+	
+		.blueskylogo {
+    position: fixed;
+    bottom: 15pt;
+	left:0pt;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+   
+}
+
+#arrow_left {
+    top: 50px;
+	display:none;
+}
+
+#arrow_right {
+    top: 50px;
+	display:none;
+}	
+	
+.login-box {
+
+    margin-top: 35pt;
+   
+}	
+	
+	
+	
+	
+	.login-box{
+	}
+}
+.btn-info.btn{
+	background: #137bb3;
+	border-radius: 7px;
+	border-color: #044a6f;
+	text-transform: uppercase;
+}
+.form-control{
+	border-radius:0;
+	height:40px;
+}
+
+
+
+.bp-reset-element, div{
+    color: white!important;
+    font-size: 14px!important;
+}
